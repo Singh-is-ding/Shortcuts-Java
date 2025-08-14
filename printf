@@ -1,0 +1,9 @@
+package print;
+public class p {
+    public static void printf(Object... params) {
+        for (Object p : params) {
+            System.out.println(p);
+        }
+    }
+
+}
