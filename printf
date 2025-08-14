@@ -3,7 +3,7 @@ public class p {
     public static void println(Object... params) {
         for (Object p : params) {
             System.out.println(p);
-        }}
+        }System.out.println(); }
         public  static void print(Object... params) {
             for (Object p : params) {
                 System.out.print(p);
