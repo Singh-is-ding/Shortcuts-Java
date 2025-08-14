@@ -1,9 +1,13 @@
 package print;
 public class p {
-    public static void printf(Object... params) {
+    public static void println(Object... params) {
         for (Object p : params) {
             System.out.println(p);
-        }
+        }}
+        public  static void print(Object... params) {
+            for (Object p : params) {
+                System.out.print(p);
+            }
     }
 
 }
